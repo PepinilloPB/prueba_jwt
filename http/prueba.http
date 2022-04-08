@@ -1,0 +1,21 @@
+###
+GET http://localhost:8080/hello
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlZGR5MTIzIiwiZXhwIjoxNjQ5Mzk0Mjg3LCJpYXQiOjE2NDkzNzYyODd9.tX5ZcBpt-jcpNiDg5Sk0dNXvOCepCVFFzGnQks5bu0n9jJMFdUYv8USdZ-x5rKLDNjcxt3BpwPsLjXxSPBmB4Q
+
+###
+POST http://localhost:8080/authenticate
+Content-Type: application/json
+
+{
+    "username": "eddy123",
+    "password": "12345"
+}
+
+###
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username": "eddy123",
+    "password": "12345"
+}
